@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="layout">
+  <div id="layout">
     <header>
     <div class="wrapper">
 
@@ -13,12 +13,11 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </header>
-
   <RouterView />
   </div>
 </template>
 
-<style scoped>
+<style>
 #layout {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
